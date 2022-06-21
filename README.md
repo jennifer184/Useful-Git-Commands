@@ -48,3 +48,9 @@ Note: if the existing folder was one used with github,
 
 #### Apply stashed changes to branch
 	$ git stash apply
+
+#### Undo git add 
+IMPORTANT: Do not forget the flag --staged or else it will
+undo local changes too!
+	
+	$ git restore --staged index.html 
