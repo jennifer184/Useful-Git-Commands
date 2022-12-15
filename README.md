@@ -2,7 +2,7 @@
 
 #### To push contents to a new repo 
 
-Note: if the existing folder was one used with github, 
+Note: if the existing folder was once used with github, 
 	delete .git folder before starting 
 
     $ git init
