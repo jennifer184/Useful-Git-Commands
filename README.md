@@ -1,5 +1,14 @@
 # Useful Git Commands 
 
+#### Create new branch
+	$ git checkout -b myFeature 
+	$ git commit -a -m 'Create new footer [issue 53]'
+	$ git push origin some-branch
+	make pr on the github website
+	
+#### Update master branch so you get the latest branches
+	$git fetch
+
 #### To push contents to a new repo 
 
 Note: if the existing folder was once used with github, 
