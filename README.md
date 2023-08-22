@@ -58,6 +58,13 @@ Note: if the existing folder was once used with github,
 #### Apply stashed changes to branch
 	$ git stash apply
 
+ #### Update your local branch so that it has Main's latest commits
+ 	$ git pull origin main
+
+ #### Update your local branch while moving the forked branch up to Main's last commit
+ 	$ git checkout cool-feature
+	$ git rebase main
+  
 #### Undo git add 
 IMPORTANT: Do not forget the flag --staged or else it will
 undo local changes too!
